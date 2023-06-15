@@ -1,55 +1,29 @@
-# This function adds two numbers
-def add(x, y):
-    return x + y
-
-# This function subtracts two numbers
-def subtract(x, y):
-    return x - y
-
-# This function multiplies two numbers
-def multiply(x, y):
-    return x * y
-
-# This function divides two numbers
-def divide(x, y):
-    return x / y
+# Demo Calculator App For Week 1 Project
+# Addition Method
+def add(a, b):
+    return a + b
 
 
-print("Select operation.")
-print("1.Add")
-print("2.Subtract")
-print("3.Multiply")
-print("4.Divide")
+# Subtract Method
+def sub(a, b):
+    return a - b
 
-while True:
-    # take input from the user
-    choice = input("Enter choice(1/2/3/4): ")
 
-    # check if choice is one of the four options
-    if choice in ('1', '2', '3', '4'):
-        try:
-            num1 = float(input("Enter first number: "))
-            num2 = float(input("Enter second number: "))
-        except ValueError:
-            print("Invalid input. Please enter a number.")
-            continue
+# Multiplication
+def mul(a, b):
+    return a * b
 
-        if choice == '1':
-            print(num1, "+", num2, "=", add(num1, num2))
 
-        elif choice == '2':
-            print(num1, "-", num2, "=", subtract(num1, num2))
+# Division
+def div(a, b):
+    return a / b
 
-        elif choice == '3':
-            print(num1, "*", num2, "=", multiply(num1, num2))
 
-        elif choice == '4':
-            print(num1, "/", num2, "=", divide(num1, num2))
-        
-        # check if user wants another calculation
-        # break the while loop if answer is no
-        next_calculation = input("Let's do next calculation? (yes/no): ")
-        if next_calculation == "no":
-          break
-    else:
-        print("Invalid Input")
+if __name__ == "__main__":
+    # Declare variable and set default values
+    a = 4
+    b = 2
+    print("Sum of " + str(a) + " and " + str(b) + " is ", add(a, b))
+    print("Difference of " + str(a) + " and " + str(b) + " is ", sub(a, b))
+    print("Product of " + str(a) + " and " + str(b) + " is ", mul(a, b))
+    print("Division of " + str(a) + " and " + str(b) + " is ", div(a, b))
