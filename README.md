@@ -32,6 +32,8 @@ def test_div():
     assert div(2,1) == 2
 ```
 
+![1](https://github.com/Kokardka/week1-devops/assets/72028760/4d23d368-c2c3-417b-9c19-73e529c3aead)
+
 ## Step 3 - Create a workflow
 
 1.) Create a directory called .github/workflows within the directory containing .git
