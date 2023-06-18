@@ -98,3 +98,7 @@ def test_add():
 ### 'initial_starter_code' contains the inital code to start with
 ### 'test' - The state of the project with a wrong test added for reference - this is supposed to fail the merge to master process in our workflow
 </br>
+
+## Step 6: Improve on the Project [OPTIONAL]
+
+![2](https://github.com/Kokardka/week1-devops/assets/72028760/d69fcd96-25f7-4e10-b652-8517094b876f)
