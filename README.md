@@ -32,7 +32,7 @@ def test_div():
     assert div(2,1) == 2
 ```
 
-![1](https://github.com/Kokardka/week1-devops/assets/72028760/4d23d368-c2c3-417b-9c19-73e529c3aead)
+![1](https://github.com/Kokardka/week1-devops/assets/72028760/e7f3857d-027b-4783-ad9c-0618c36a3b6f)
 
 ## Step 3 - Create a workflow
 
